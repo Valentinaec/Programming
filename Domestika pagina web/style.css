@@ -1,0 +1,13 @@
+body {
+    background: black;
+}
+
+.gallery__img{
+
+    width: 100px;
+}
+
+.section--top{
+
+    height: 100vh;
+}
