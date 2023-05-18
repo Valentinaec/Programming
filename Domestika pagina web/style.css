@@ -25,6 +25,7 @@ a {
     padding-left: 5%; 
     padding-top: 60px;
     padding-bottom: 60px;
+    background-image: linear-gradient(to top, #000000, #39111F, #000000);
 }
 .minisection{
     padding-top: 60px;
