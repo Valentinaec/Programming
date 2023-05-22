@@ -1,0 +1,96 @@
+body {
+    background: black;
+}
+
+.tituloprincipal{
+
+    font-size: 100px;
+    padding-left: 5%;
+    text-align: center;
+}
+.textico{
+    
+    padding-left: 5%;
+}
+* {
+    font-family: sans-serif;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.portadaprincipal{
+    display: flex;
+    padding-left: 5%; 
+    background-image: linear-gradient(to top, #000000, #39111F, #000000);
+}
+
+.img--portada{
+    padding-top: 80px;
+    width: 450px;
+    height: auto;
+}
+.img--persona{
+    width: 100%;
+}
+
+.section--about{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.about_text{
+
+    padding-bottom: 40px;
+}
+
+.border{
+
+    border-top: 1px solid white;
+}
+.gallery__img{
+
+    width: 100%;
+}
+.gallery__imggg{
+
+    width: 100%;
+    padding-top: 40px;
+}
+
+.gallery__imgg{
+
+    width: 100%;
+    padding-top: 80px;
+}
+
+.gallery__item{
+
+    display: flex;
+    padding-left: 10%; 
+    padding-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.subgallery__item{
+
+    padding-left: 5%; 
+    padding-right: 5%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section--contact{
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.contact__inner{
+    display: flex;
+}
+
+.contact__column{
+    width: 50%;
+}
