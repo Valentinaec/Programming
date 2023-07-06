@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mi Página Web</title>
+    <title>Valentina - Ingeniera Multimedia</title>
     <style>
-        /* Estilos CSS */
         body {
+            background-color: #FCEEC7;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: #F38181;
+            color: #FFFFFF;
             padding: 20px;
             text-align: center;
         }
 
+        h1 {
+            font-size: 36px;
+        }
+
+        p.intro {
+            font-size: 20px;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+
         nav {
-            background-color: #f4f4f4;
+            background-color: #96D9C6;
             padding: 10px;
+            text-align: center;
         }
 
         nav ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
-            text-align: center;
         }
 
         nav ul li {
@@ -35,7 +46,7 @@
         }
 
         nav ul li a {
-            color: #333;
+            color: #FFFFFF;
             text-decoration: none;
             padding: 5px;
         }
@@ -44,9 +55,48 @@
             padding: 20px;
         }
 
+        .artwork {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+        }
+
+        .artwork .shape {
+            width: 200px;
+            height: 200px;
+            background-color: #96D9C6;
+            border-radius: 50%;
+            transform: rotate(45deg);
+        }
+
+        .artwork .shape:before {
+            content: "";
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: #FCEEC7;
+            border-radius: 50%;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+
+        .artwork .shape:after {
+            content: "";
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: #F38181;
+            border-radius: 50%;
+            position: absolute;
+            top: 75px;
+            left: 75px;
+        }
+
         footer {
-            background-color: #333;
-            color: #fff;
+            background-color: #F38181;
+            color: #FFFFFF;
             padding: 10px;
             text-align: center;
         }
@@ -54,36 +104,44 @@
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Mi Página Web</h1>
+        <h1>Valentina - Ingeniera Multimedia</h1>
+        <p class="intro">Tecnología</p>
     </header>
 
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
 
     <main>
-        <section>
-            <h2>Acerca de mí</h2>
-            <p>Hola, soy Valentina.</p>
-        </section>
+        <div id="inicio">
+            <h2>¡Bienvenido a mi página!</h2>
+            <p>En esta página encontrarás información sobre mí y mi pasión por la ingeniería multimedia.</p>
+        </div>
 
-        <section>
-            <h2>Contacto</h2>
-            <p>Puedes contactarme por correo electrónico o a través de mis redes sociales:</p>
-            <ul>
-                <li><a href="[enlace a tu perfil de redes sociales]">Facebook</a></li>
-                <li><a href="[enlace a tu perfil de redes sociales]">Twitter</a></li>
-                <li><a href="[enlace a tu perfil de redes sociales]">Instagram</a></li>
-            </ul>
-        </section>
-    </main>
+        <div id="acerca">
+            <h2>Acerca de Mí</h2>
+                <p>Soy Valentina, una ingeniera multimedia apasionada por la tecnología y el diseño de experiencias digitales. Me encanta crear interfaces intuitivas y atractivas para mejorar la interacción entre las personas y la tecnología.</p>
+            </div>
+    
+            <div id="contacto">
+                <h2>Contacto</h2>
+                <p>Si deseas ponerte en contacto conmigo, puedes enviarme un correo electrónico a valentina@example.com o seguirme en mis redes sociales:</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/valentina">Facebook</a></li>
+                    <li><a href="https://www.twitter.com/valentina">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/valentina">Instagram</a></li>
+                </ul>
+            </div>
+        </main>
+    
+        <footer>
+            <p>Derechos de autor &copy; 2023 - Valentina</p>
+        </footer>
+    </body>
+    </html>
+    
 
-    <footer>
-        <p>Derechos de autor &copy; 2023 - Mi Página Web</p>
-    </footer>
-</body>
-</html>
